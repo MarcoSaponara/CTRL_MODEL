@@ -3,7 +3,7 @@ from __future__ import print_function
 import tensorflow as tf
 import os
 import numpy as np
-tf.enable_eager_execution()
+#tf.enable_eager_execution() #Eager execution is enabled by default in version 2.x 
 import transformer
 import argparse
 import pdb
